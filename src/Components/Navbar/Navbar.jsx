@@ -1,7 +1,8 @@
 import React from "react";
-import "../App.css";
+
 import { CiSearch } from "react-icons/ci";
-import 'logo.webp' 
+// import 'logo.webp' 
+import logo from '../../assets/logo.webp' 
 
 
 const Navbar = () => {
@@ -14,7 +15,7 @@ const Navbar = () => {
             className="flex items-center space-x-3 rtl:space-x-reverse"
           >
             <img
-              src="logo.webp"
+              src={logo}
               className="h-8"
               alt="brand-crub Logo"
             />
