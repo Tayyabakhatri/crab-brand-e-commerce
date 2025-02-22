@@ -1,17 +1,20 @@
-import React from 'react'
-// import Navbar from './Components/Navbar/Navbar'
-import Hero from './Components/Hero/Hero'
-import './App.css'
-import Swipper from './Components/Swipper/Swipper'
+import React from "react";
+import "./App.css";
+import Hero from "./Components/Hero/Hero";
+import Swipper from "./Components/Swipper/Swipper";
+import Navbar from "./Components/Navbar/Navbar";
+import Services from "./Components/OurServices/Services";
 
-function App() {
-return(
-<>
-{/* <Navbar/> */}
- <Hero/>
- <Swipper/>
- </>
-)
-}
+const App = () => {
+  return (
+    <div>
+      <Navbar/>
+      <Hero />
+      <Swipper />
+      <Services/>
 
-export default App
+    </div>
+  );
+};
+
+export default App;
